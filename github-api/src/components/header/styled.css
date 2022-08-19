@@ -1,0 +1,32 @@
+#title{
+  text-transform: uppercase;
+  text-decoration: solid;
+}
+
+#searche {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4px;
+}
+input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  justify-content: space-between;
+  height: 44px;
+  width: 90%;
+  margin: 0 5px;
+  padding: 10px;
+}
+button {
+  border: 1px solid cadetblue;
+  background-color: cadetblue;
+  color: gainsboro;   
+  margin: 0 8px;
+  padding: 8px;
+}
+
+button:hover {
+     border: 2px solid cadetblue;
+    background-color: teal;
+   }

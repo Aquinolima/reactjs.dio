@@ -1,0 +1,39 @@
+#container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+       text-align: center;
+}
+
+#cards-repo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+} 
+
+#cards-repo-item{
+    border: 1px solid gainsboro;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards-repo-item:hover{
+    border: 2px solid cadetblue;
+    background-color: gainsboro;
+   
+}
+
+#cards-repo-item a:hover{
+    color: teal;
+   
+}
+
